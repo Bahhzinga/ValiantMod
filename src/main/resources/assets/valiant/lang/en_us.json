@@ -12,17 +12,45 @@
 	"item.valiant.cobalt_pickaxe": "Cobalt Pickaxe",
 	"item.valiant.sapphire_pickaxe": "Sapphire Pickaxe",
 
+	"item.valiant.ruby_axe": "Ruby Axe",
+	"item.valiant.myranium_axe":  "Myranium Axe",
+	"item.valiant.magnesium_axe": "Magnesium Axe",
+	"item.valiant.cobalt_axe": "Cobalt Axe",
+	"item.valiant.sapphire_axe": "Sapphire Axe",
+
+	"item.valiant.ruby_shovel": "Ruby Shovel",
+	"item.valiant.myranium_shovel":  "Myranium Shovel",
+	"item.valiant.magnesium_shovel": "Magnesium Shovel",
+	"item.valiant.cobalt_shovel": "Cobalt Shovel",
+	"item.valiant.sapphire_shovel": "Sapphire Shovel",
+
+	"item.valiant.ruby_hoe": "Ruby Hoe",
+	"item.valiant.myranium_hoe":  "Myranium Hoe",
+	"item.valiant.magnesium_hoe": "Magnesium Hoe",
+	"item.valiant.cobalt_hoe": "Cobalt Hoe",
+	"item.valiant.sapphire_hoe": "Sapphire Hoe",
+
+	"item.valiant.ruby_sword": "Ruby Sword",
+	"item.valiant.myranium_sword":  "Myranium Sword",
+	"item.valiant.magnesium_sword": "Magnesium Sword",
+	"item.valiant.cobalt_sword": "Cobalt Sword",
+	"item.valiant.sapphire_sword": "Sapphire Sword",
+
 	"block.valiant.ruby_ore": "Ruby Ore",
 	"block.valiant.cobalt_ore": "Cobalt Ore",
 	"block.valiant.sapphire_ore": "Sapphire Ore",
 	"block.valiant.magnesium_ore": "Magnesium Ore",
 	"block.valiant.uranium_ore": "Uranium Ore",
 	"block.valiant.myranium_ore": "Myranium Ore",
+
 	"block.valiant.sapphire_block": "Sapphire Block",
 	"block.valiant.unrefined_myranium": "Unrefined Myranium",
 	"block.valiant.purified_myranium": "Purified Myranium",
 	"block.valiant.ruby_block": "Ruby Block",
 	"block.valiant.cobalt_block": "Cobalt Block",
+	"block.valiant.magnesium_block": "",
+	"block.valiant.uranium_block": "",
+
 	"block.valiant.corrupt_log": "Corrupted Wood",
 	"block.valiant.corrupt_leaves": "Corrupted Leaves"
 }

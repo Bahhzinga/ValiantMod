@@ -31,6 +31,7 @@ public class ModItems {
     public static final RegistryObject<Item> COBALT_PICKAXE = Registration.ITEMS.register("cobalt_pickaxe", CobaltPickaxe::new);
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = Registration.ITEMS.register("sapphire_pickaxe", SapphirePickaxe::new);
 
+    public static final RegistryObject<Item> RUBY_AXE = Registration.ITEMS.register("ruby_axe", RubyAxe::new);
 
 
 
