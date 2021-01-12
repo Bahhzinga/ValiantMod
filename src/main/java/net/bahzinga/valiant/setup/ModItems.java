@@ -32,6 +32,7 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = Registration.ITEMS.register("sapphire_pickaxe", SapphirePickaxe::new);
 
     public static final RegistryObject<Item> RUBY_AXE = Registration.ITEMS.register("ruby_axe", RubyAxe::new);
+    public static final RegistryObject<Item> MYRANIUM_AXE = Registration.ITEMS.register("myranium_axe", MyraniumAxe::new);
 
 
 
