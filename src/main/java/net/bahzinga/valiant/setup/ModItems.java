@@ -35,6 +35,7 @@ public class ModItems {
     public static final RegistryObject<Item> MYRANIUM_AXE = Registration.ITEMS.register("myranium_axe", MyraniumAxe::new);
     public static final RegistryObject<Item> COBALT_AXE = Registration.ITEMS.register("cobalt_axe", RubyAxe::new);
     public static final RegistryObject<Item> SAPPHIRE_AXE = Registration.ITEMS.register("sapphire_axe", MyraniumAxe::new);
+    public static final RegistryObject<Item> MAGNESIUM_AXE = Registration.ITEMS.register("sapphire_axe", MagnesiumAxe::new);
 
 
 
