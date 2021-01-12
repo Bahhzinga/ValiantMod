@@ -1,0 +1,28 @@
+{
+	"item.valiant.ruby": "Ruby",
+	"item.valiant.magnesium": "Magnesium",
+	"item.valiant.sapphire": "Sapphire",
+	"item.valiant.cobalt": "Cobalt",
+	"item.valiant.uranium": "Uranium",
+	"item.valiant.myranium": "Myranium",
+
+	"item.valiant.ruby_pickaxe": "Ruby Pickaxe",
+	"item.valiant.myranium_pickaxe":  "Myranium Pickaxe",
+	"item.valiant.magnesium_pickaxe": "Magnesium Pickaxe",
+	"item.valiant.cobalt_pickaxe": "Cobalt Pickaxe",
+	"item.valiant.sapphire_pickaxe": "Sapphire Pickaxe",
+
+	"block.valiant.ruby_ore": "Ruby Ore",
+	"block.valiant.cobalt_ore": "Cobalt Ore",
+	"block.valiant.sapphire_ore": "Sapphire Ore",
+	"block.valiant.magnesium_ore": "Magnesium Ore",
+	"block.valiant.uranium_ore": "Uranium Ore",
+	"block.valiant.myranium_ore": "Myranium Ore",
+	"block.valiant.sapphire_block": "Sapphire Block",
+	"block.valiant.unrefined_myranium": "Unrefined Myranium",
+	"block.valiant.purified_myranium": "Purified Myranium",
+	"block.valiant.ruby_block": "Ruby Block",
+	"block.valiant.cobalt_block": "Cobalt Block",
+	"block.valiant.corrupt_log": "Corrupted Wood",
+	"block.valiant.corrupt_leaves": "Corrupted Leaves"
+}
