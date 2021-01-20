@@ -5,6 +5,9 @@ import net.bahzinga.valiant.setup.customitems.axes.MyraniumAxe;
 import net.bahzinga.valiant.setup.customitems.axes.RubyAxe;
 import net.bahzinga.valiant.setup.customitems.fuels.UraniumItem;
 import net.bahzinga.valiant.setup.customitems.pickaxes.*;
+import net.bahzinga.valiant.setup.customitems.shovels.CobaltShovel;
+import net.bahzinga.valiant.setup.customitems.shovels.MagnesiumShovel;
+import net.bahzinga.valiant.setup.customitems.shovels.RubyShovel;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -41,6 +44,18 @@ public class ModItems {
     public static final RegistryObject<Item> COBALT_AXE = Registration.ITEMS.register("cobalt_axe", RubyAxe::new);
     public static final RegistryObject<Item> SAPPHIRE_AXE = Registration.ITEMS.register("sapphire_axe", MyraniumAxe::new);
     public static final RegistryObject<Item> MAGNESIUM_AXE = Registration.ITEMS.register("magnesium_axe", MagnesiumAxe::new);
+
+    public static final RegistryObject<Item> RUBY_SHOVEL = Registration.ITEMS.register("ruby_shovel", RubyShovel::new);
+    public static final RegistryObject<Item> MYRANIUM_SHOVEL = Registration.ITEMS.register("myranium_shovel", MyraniumShovel::new);
+    public static final RegistryObject<Item> COBALT_SHOVEL = Registration.ITEMS.register("cobalt_shovel", CobaltShovel::new);
+    public static final RegistryObject<Item> SAPPHIRE_SHOVEL = Registration.ITEMS.register("sapphire_shovel", MyraniumShovel::new);
+    public static final RegistryObject<Item> MAGNESIUM_SHOVEL = Registration.ITEMS.register("magnesium_shovel", MagnesiumShovel::new);
+
+    public static final RegistryObject<Item> RUBY_HOE = Registration.ITEMS.register("ruby_hoe", RubyHoe::new);
+    public static final RegistryObject<Item> MYRANIUM_HOE = Registration.ITEMS.register("myranium_hoe", MyraniumHoe::new);
+    public static final RegistryObject<Item> COBALT_HOE = Registration.ITEMS.register("cobalt_hoe", CobaltHoe::new);
+    public static final RegistryObject<Item> SAPPHIRE_HOE = Registration.ITEMS.register("sapphire_hoe", MyraniumHoe::new);
+    public static final RegistryObject<Item> MAGNESIUM_HOE = Registration.ITEMS.register("magnesium_hoe", MagnesiumHoe::new);
 
     public static final RegistryObject<Item> CURED_FLESH = Registration.ITEMS.register("cured_flesh",
             () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(FoodInit.CURED_FLESH)));
