@@ -5,8 +5,11 @@ import net.bahzinga.valiant.setup.customitems.axes.MyraniumAxe;
 import net.bahzinga.valiant.setup.customitems.axes.RubyAxe;
 import net.bahzinga.valiant.setup.customitems.fuels.UraniumItem;
 import net.bahzinga.valiant.setup.customitems.pickaxes.*;
+import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ModItems {
@@ -38,6 +41,9 @@ public class ModItems {
     public static final RegistryObject<Item> COBALT_AXE = Registration.ITEMS.register("cobalt_axe", RubyAxe::new);
     public static final RegistryObject<Item> SAPPHIRE_AXE = Registration.ITEMS.register("sapphire_axe", MyraniumAxe::new);
     public static final RegistryObject<Item> MAGNESIUM_AXE = Registration.ITEMS.register("magnesium_axe", MagnesiumAxe::new);
+
+    public static final RegistryObject<Item> CURED_FLESH = Registration.ITEMS.register("cured_flesh",
+            () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(FoodInit.CURED_FLESH)));
 
 
 
