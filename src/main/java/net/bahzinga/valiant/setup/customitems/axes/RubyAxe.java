@@ -1,4 +1,4 @@
-package net.bahzinga.valiant.setup.customitems;
+package net.bahzinga.valiant.setup.customitems.axes;
 
 import net.bahzinga.valiant.setup.ModItems;
 import net.minecraft.item.*;

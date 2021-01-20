@@ -1,49 +1,49 @@
-package net.bahzinga.valiant.setup.customitems;
+package net.bahzinga.valiant.setup.customitems.axes;
 
 import net.bahzinga.valiant.setup.ModItems;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraftforge.common.ToolType;
 
-public class CobaltPickaxe extends PickaxeItem {
+public class MagnesiumAxe extends AxeItem {
 
-    public static IItemTier cobalt_tier = new IItemTier() {
+    public static IItemTier magnesium_tier = new IItemTier() {
         @Override
         public int getMaxUses() {
-            return 375;
+            return 500;
         }
 
         @Override
         public float getEfficiency() {
-            return 5.5F;
+            return 4.5F;
         }
 
         @Override
         public float getAttackDamage() {
-            return -372F;
+            return -490F;
         }
 
         @Override
         public int getHarvestLevel() {
-            return 2; // 0: wood, 1: stone/gold, 2: iron, 3: diamond
+            return 3; // 0: wood, 1: stone/gold, 2: iron, 3: diamond
         }
 
         @Override
         public int getEnchantability() {
-            return 23;
+            return 25;
         }
 
         @Override
         public Ingredient getRepairMaterial() {
-            return Ingredient.fromItems(ModItems.COBALT.get());
+            return Ingredient.fromItems(ModItems.RUBY.get());
         }
     };
 
-    public CobaltPickaxe() {
-        super(cobalt_tier, cobalt_tier.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.PICKAXE, cobalt_tier.getHarvestLevel()).rarity(Rarity.RARE));
+    public MagnesiumAxe() {
+        super(magnesium_tier, magnesium_tier.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.AXE, magnesium_tier.getHarvestLevel()).rarity(Rarity.RARE));
     }
 
 

@@ -1,4 +1,4 @@
-package net.bahzinga.valiant.setup.customitems;
+package net.bahzinga.valiant.setup.customitems.shovels;
 
 import net.bahzinga.valiant.setup.ModItems;
 import net.minecraft.item.AxeItem;
@@ -8,9 +8,9 @@ import net.minecraft.item.Rarity;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraftforge.common.ToolType;
 
-public class MagnesiumAxe extends AxeItem {
+public class MagnesiumShovel extends AxeItem {
 
-    public static IItemTier magnesium_tier = new IItemTier() {
+    public static IItemTier shovel = new IItemTier() {
         @Override
         public int getMaxUses() {
             return 500;
@@ -23,7 +23,7 @@ public class MagnesiumAxe extends AxeItem {
 
         @Override
         public float getAttackDamage() {
-            return -490F;
+            return -492F;
         }
 
         @Override
@@ -38,12 +38,12 @@ public class MagnesiumAxe extends AxeItem {
 
         @Override
         public Ingredient getRepairMaterial() {
-            return Ingredient.fromItems(ModItems.RUBY.get());
+            return Ingredient.fromItems(ModItems.MAGNESIUM.get());
         }
     };
 
-    public MagnesiumAxe() {
-        super(magnesium_tier, magnesium_tier.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.AXE, magnesium_tier.getHarvestLevel()).rarity(Rarity.RARE));
+    public MagnesiumShovel() {
+        super(shovel, shovel.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.AXE, shovel.getHarvestLevel()).rarity(Rarity.RARE));
     }
 
 

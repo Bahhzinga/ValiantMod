@@ -1,10 +1,12 @@
 package net.bahzinga.valiant.setup;
 
-import net.bahzinga.valiant.setup.customitems.*;
+import net.bahzinga.valiant.setup.customitems.axes.MagnesiumAxe;
+import net.bahzinga.valiant.setup.customitems.axes.MyraniumAxe;
+import net.bahzinga.valiant.setup.customitems.axes.RubyAxe;
+import net.bahzinga.valiant.setup.customitems.fuels.UraniumItem;
+import net.bahzinga.valiant.setup.customitems.pickaxes.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.PickaxeItem;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ModItems {

@@ -1,4 +1,4 @@
-package net.bahzinga.valiant.setup.customitems;
+package net.bahzinga.valiant.setup.customitems.shovels;
 
 import net.bahzinga.valiant.setup.ModItems;
 import net.minecraft.item.AxeItem;
@@ -8,9 +8,9 @@ import net.minecraft.item.Rarity;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraftforge.common.ToolType;
 
-public class MyraniumAxe extends AxeItem {
+public class RubyShovel extends AxeItem {
 
-    public static IItemTier ruby_tier = new IItemTier() {
+    public static IItemTier shovel = new IItemTier() {
         @Override
         public int getMaxUses() {
             return 500;
@@ -23,7 +23,7 @@ public class MyraniumAxe extends AxeItem {
 
         @Override
         public float getAttackDamage() {
-            return -490F;
+            return -492F;
         }
 
         @Override
@@ -42,8 +42,8 @@ public class MyraniumAxe extends AxeItem {
         }
     };
 
-    public MyraniumAxe() {
-        super(ruby_tier, ruby_tier.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.AXE, ruby_tier.getHarvestLevel()).rarity(Rarity.RARE));
+    public RubyShovel() {
+        super(shovel, shovel.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.AXE, shovel.getHarvestLevel()).rarity(Rarity.RARE));
     }
 
 

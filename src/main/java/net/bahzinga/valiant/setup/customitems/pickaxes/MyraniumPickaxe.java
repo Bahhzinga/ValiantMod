@@ -1,4 +1,4 @@
-package net.bahzinga.valiant.setup.customitems;
+package net.bahzinga.valiant.setup.customitems.pickaxes;
 
 import net.bahzinga.valiant.setup.ModItems;
 import net.minecraft.item.IItemTier;
@@ -8,12 +8,12 @@ import net.minecraft.item.Rarity;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraftforge.common.ToolType;
 
-public class MagnesiumPickaxe extends PickaxeItem {
+public class MyraniumPickaxe extends PickaxeItem {
 
-    public static IItemTier magnesium_tier = new IItemTier() {
+    public static IItemTier myranium_tier = new IItemTier() {
         @Override
         public int getMaxUses() {
-            return 400;
+            return 500;
         }
 
         @Override
@@ -23,7 +23,7 @@ public class MagnesiumPickaxe extends PickaxeItem {
 
         @Override
         public float getAttackDamage() {
-            return -396.5F;
+            return -494.5F;
         }
 
         @Override
@@ -33,17 +33,17 @@ public class MagnesiumPickaxe extends PickaxeItem {
 
         @Override
         public int getEnchantability() {
-            return 28;
+            return 31;
         }
 
         @Override
         public Ingredient getRepairMaterial() {
-            return Ingredient.fromItems(ModItems.MAGNESIUM.get());
+            return Ingredient.fromItems(ModItems.MYRANIUM.get());
         }
     };
 
-    public MagnesiumPickaxe() {
-        super(magnesium_tier, magnesium_tier.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.PICKAXE, magnesium_tier.getHarvestLevel()).rarity(Rarity.RARE));
+    public MyraniumPickaxe() {
+        super(myranium_tier, myranium_tier.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.PICKAXE, myranium_tier.getHarvestLevel()).rarity(Rarity.RARE));
     }
 
 

@@ -1,16 +1,16 @@
-package net.bahzinga.valiant.setup.customitems;
+package net.bahzinga.valiant.setup.customitems.axes;
 
 import net.bahzinga.valiant.setup.ModItems;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraftforge.common.ToolType;
 
-public class MyraniumPickaxe extends PickaxeItem {
+public class MyraniumAxe extends AxeItem {
 
-    public static IItemTier myranium_tier = new IItemTier() {
+    public static IItemTier ruby_tier = new IItemTier() {
         @Override
         public int getMaxUses() {
             return 500;
@@ -18,32 +18,32 @@ public class MyraniumPickaxe extends PickaxeItem {
 
         @Override
         public float getEfficiency() {
-            return 5.5F;
+            return 4.5F;
         }
 
         @Override
         public float getAttackDamage() {
-            return -494.5F;
+            return -490F;
         }
 
         @Override
         public int getHarvestLevel() {
-            return 4; // 0: wood, 1: stone/gold, 2: iron, 3: diamond
+            return 3; // 0: wood, 1: stone/gold, 2: iron, 3: diamond
         }
 
         @Override
         public int getEnchantability() {
-            return 31;
+            return 25;
         }
 
         @Override
         public Ingredient getRepairMaterial() {
-            return Ingredient.fromItems(ModItems.MYRANIUM.get());
+            return Ingredient.fromItems(ModItems.RUBY.get());
         }
     };
 
-    public MyraniumPickaxe() {
-        super(myranium_tier, myranium_tier.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.PICKAXE, myranium_tier.getHarvestLevel()).rarity(Rarity.RARE));
+    public MyraniumAxe() {
+        super(ruby_tier, ruby_tier.getMaxUses(), -1, new Properties().group(ItemGroup.TOOLS).maxStackSize(1).addToolType(ToolType.AXE, ruby_tier.getHarvestLevel()).rarity(Rarity.RARE));
     }
 
 

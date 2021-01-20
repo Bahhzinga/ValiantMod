@@ -1,4 +1,4 @@
-package net.bahzinga.valiant.setup.customitems;
+package net.bahzinga.valiant.setup.customitems.fuels;
 
 import net.bahzinga.valiant.Valiant;
 import net.minecraft.item.Item;
