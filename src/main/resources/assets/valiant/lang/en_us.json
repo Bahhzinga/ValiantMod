@@ -52,5 +52,8 @@
 	"block.valiant.uranium_block": "",
 
 	"block.valiant.corrupt_log": "Corrupted Wood",
-	"block.valiant.corrupt_leaves": "Corrupted Leaves"
+	"block.valiant.corrupt_leaves": "Corrupted Leaves",
+
+	"item.valiant.cured_flesh": "Cured Flesh",
+	"item.valiant.sushi": "Sushi"
 }
